@@ -38,10 +38,7 @@ next-env.d.ts
 # Firebase
 firebase-key.json
 lib/serviceAccount.json
+
+# Ignore all env files EXCEPT the example
 .env*
-node_modules/
-.DS_Store
-lib/serviceAccount.json
-.env*
-node_modules/
-.DS_Store
+!.env.example
