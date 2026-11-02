@@ -1,0 +1,350 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Refactor `createWagerParticipant` to use a dedicated mysql2 connection with `BEGIN`/`COMMIT`/`ROLLBACK`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021339575
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021353212
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022031665
+      }
+    ],
+    "1.2 Insert a WagerDebit row inside the same `createWagerParticipant` transaction": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021339774
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022039954
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022656269
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023226702
+      }
+    ],
+    "2.1 Refactor `resolveWagerService` to use an AtomicTransaction (dedicated connection)": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021339881
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021353758
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022032274
+      }
+    ],
+    "2.2 Add `readAdminSettings` helper and platform fee logic inside `resolveWagerService`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021339989
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022040526
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022656691
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023227014
+      }
+    ],
+    "2.3 Insert WagerCredit rows per winner and update winner balances inside the ResolutionTransaction": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340186
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022040939
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022657197
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023224841
+      }
+    ],
+    "2.4 Add gamePoints awards inside the ResolutionTransaction": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340278
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022041306
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022657628
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023224143
+      }
+    ],
+    "3. Checkpoint — verify atomicity before proceeding to auth": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340367
+      }
+    ],
+    "4.1 Add `getToken` guard to `POST /api/wagers`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340460
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021354256
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022032585
+      }
+    ],
+    "4.2 Add `getToken` guard to `PUT /api/wagers`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340549
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021354665
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022033015
+      }
+    ],
+    "4.3 Add `getToken` guard to `DELETE /api/wagers`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340636
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021355199
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022033498
+      }
+    ],
+    "5.1 Add `getToken` guard to `POST /api/wager-participants`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340723
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021355600
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022034006
+      }
+    ],
+    "6.1 Append idempotent migration to `database/schema.sql`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340809
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021355849
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022034415
+      }
+    ],
+    "6.2 Update `createWager` in `services/wagerService.ts` to persist `wagerType`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340898
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022041911
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022658050
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023225527
+      }
+    ],
+    "6.3 Update `getFilteredWagers` in `services/wagerService.ts` to include `wagerType`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021340990
+      },
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022042132
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022658553
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023226011
+      }
+    ],
+    "7. Checkpoint — schema and service changes verified": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021341087
+      }
+    ],
+    "8.1 Update `BettingOptions` props interface in `components/wagers/BettingOptions.tsx`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021341199
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023240476
+      },
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023373517
+      }
+    ],
+    "8.2 Implement conditional render inside the option card": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021341331
+      }
+    ],
+    "9.1 Add `totalStakePerOption` memo to `WagerDetails.tsx`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021341438
+      }
+    ],
+    "9.2 Replace the inline \"Choose Your Pick\" grid in `WagerDetails.tsx` with the `BettingOptions` component": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021341527
+      }
+    ],
+    "10. Final checkpoint — end-to-end integration": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793021341623
+      }
+    ],
+    "4. API authentication guards on `/api/wagers`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022033660
+      }
+    ],
+    "5. API authentication guard on `/api/wager-participants`": [
+      {
+        "executionId": "46e2ba48-810c-49d2-9ecd-733976058513",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793022034172
+      }
+    ],
+    "6. Schema migration — add `wagerType` column to `wagers`": [
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023226103
+      }
+    ],
+    "1. Atomic participant join with debit transaction record": [
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023226790
+      }
+    ],
+    "2. Atomic wager resolution with credit transactions, platform fee, and gamePoints": [
+      {
+        "executionId": "5ab0692f-bfba-4c14-849d-4b9b7f2d9cfd",
+        "chatSessionId": "sess_78ec7fc5-adb1-4747-b470-5da18c17e662",
+        "timestamp": 1793023227102
+      }
+    ]
+  }
+}

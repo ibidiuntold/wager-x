@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Access Bank",
+    "slug": "access-bank",
+    "code": "044",
+    "ussd": "*901#",
+    "image": "/images/bank-logo/access.png"
+  },
+  {
+    "name": "Access Bank (Diamond)",
+    "slug": "access-bank-diamond",
+    "code": "063",
+    "ussd": "*426#",
+    "image": "/images/bank-logo/access.png"
+  },
+  {
+    "name": "ALAT by WEMA",
+    "slug": "alat-by-wema",
+    "code": "035A",
+    "ussd": "*945*100#",
+    "image": "/images/bank-logo/alat-by-wema.png"
+  },
+  {
+    "name": "ASO Savings and Loans",
+    "slug": "asosavings",
+    "code": "401",
+    "ussd": "",
+    "image": "/images/bank-logo/asosavings.png"
+  },
+  {
+    "name": "Bowen Microfinance Bank",
+    "slug": "bowen-microfinance-bank",
+    "code": "50931",
+    "ussd": "",
+    "image": "/images/bank-logo/bowen.jpeg"
+  },
+  {
+    "name": "CEMCS Microfinance Bank",
+    "slug": "cemcs-microfinance-bank",
+    "code": "50823",
+    "ussd": "*1029#",
+    "image": "/images/bank-logo/cemcs-microfinance-bank.png"
+  },
+  {
+    "name": "Citibank Nigeria",
+    "slug": "citibank-nigeria",
+    "code": "023",
+    "ussd": "",
+    "image": "/images/bank-logo/citibank.png"
+  },
+  {
+    "name": "Ecobank Nigeria",
+    "slug": "ecobank-nigeria",
+    "code": "050",
+    "ussd": "*326#",
+    "image": "/images/bank-logo/ecobank-nigeria.png"
+  },
+  {
+    "name": "Fidelity Bank",
+    "slug": "fidelity-bank",
+    "code": "070",
+    "ussd": "*770#",
+    "image": "/images/bank-logo/fidelity-bank.png"
+  },
+  {
+    "name": "First Bank of Nigeria",
+    "slug": "first-bank-of-nigeria",
+    "code": "011",
+    "ussd": "*894#",
+    "image": "/images/bank-logo/first-bank-of-nigeria.png"
+  },
+  {
+    "name": "First City Monument Bank",
+    "slug": "first-city-monument-bank",
+    "code": "214",
+    "ussd": "*329#",
+    "image": "/images/bank-logo/first-city-monument-bank.png"
+  },
+  {
+    "name": "Globus Bank",
+    "slug": "globus-bank",
+    "code": "00103",
+    "ussd": "*989#",
+    "image": "/images/bank-logo/globus-bank.jpg"
+  },
+  {
+    "name": "Guaranty Trust Bank",
+    "slug": "guaranty-trust-bank",
+    "code": "058",
+    "ussd": "*737#",
+    "image": "/images/bank-logo/guaranty-trust-bank.png"
+  },
+  {
+    "name": "Hasal Microfinance Bank",
+    "slug": "hasal-microfinance-bank",
+    "code": "50383",
+    "ussd": "*322*127#",
+    "image": "/images/bank-logo/hasal.png"
+  },
+  {
+    "name": "Heritage Bank",
+    "slug": "heritage-bank",
+    "code": "030",
+    "ussd": "*322#",
+    "image": "/images/bank-logo/heritage.jpeg"
+  },
+  {
+    "name": "Jaiz Bank",
+    "slug": "jaiz-bank",
+    "code": "301",
+    "ussd": "*389*301#",
+    "image": "/images/bank-logo/jaiz-logo.jpeg"
+  },
+  {
+    "name": "Keystone Bank",
+    "slug": "keystone-bank",
+    "code": "082",
+    "ussd": "*7111#",
+    "image": "/images/bank-logo/keystone-bank.png"
+  },
+  {
+    "name": "Kuda Bank",
+    "slug": "kuda-bank",
+    "code": "50211",
+    "ussd": "",
+    "image": "/images/bank-logo/kuda.png"
+  },
+  {
+    "name": "Moniepoint MFB",
+    "slug": "moniepoint-mfb",
+    "code": "50515",
+    "ussd": "",
+    "image": "/images/bank-logo/moniepoint.png"
+  },
+  {
+    "name": "Opay Digital Services",
+    "slug": "opay",
+    "code": "999992",
+    "ussd": "",
+    "image": "/images/bank-logo/opay-logo.jpeg"
+  },
+  {
+    "name": "Palmpay",
+    "slug": "palmpay",
+    "code": "999991",
+    "ussd": "",
+    "image": "/images/bank-logo/palmpay-logo.png"
+  },
+  {
+    "name": "Parallex Bank",
+    "slug": "parallex-bank",
+    "code": "104",
+    "ussd": "*322*318*0#",
+    "image": "/images/bank-logo/parallax.png"
+  },
+  {
+    "name": "Polaris Bank",
+    "slug": "polaris-bank",
+    "code": "076",
+    "ussd": "*833#",
+    "image": "/images/bank-logo/polaris-bank.png"
+  },
+  {
+    "name": "Providus Bank",
+    "slug": "providus-bank",
+    "code": "101",
+    "ussd": "",
+    "image": "/images/bank-logo/providus.png"
+  },
+  {
+    "name": "Rubies MFB",
+    "slug": "rubies-mfb",
+    "code": "125",
+    "ussd": "*7797#",
+    "image": "/images/bank-logo/rubies.png"
+  },
+  {
+    "name": "Sparkle Microfinance Bank",
+    "slug": "sparkle-microfinance-bank",
+    "code": "51310",
+    "ussd": "",
+    "image": "/images/bank-logo/sparkle.jpeg"
+  },
+  {
+    "name": "Stanbic IBTC Bank",
+    "slug": "stanbic-ibtc-bank",
+    "code": "221",
+    "ussd": "*909#",
+    "image": "/images/bank-logo/stanbic.png"
+  },
+  {
+    "name": "Standard Chartered Bank",
+    "slug": "standard-chartered-bank",
+    "code": "068",
+    "ussd": "",
+    "image": "/images/bank-logo/standard-chartered.png"
+  },
+  {
+    "name": "Sterling Bank",
+    "slug": "sterling-bank",
+    "code": "232",
+    "ussd": "*822#",
+    "image": "/images/bank-logo/sterling-logo.png"
+  },
+  {
+    "name": "Suntrust Bank",
+    "slug": "suntrust-bank",
+    "code": "100",
+    "ussd": "*5230#",
+    "image": "/images/bank-logo/suntrust.png"
+  },
+  {
+    "name": "TAJ Bank",
+    "slug": "taj-bank",
+    "code": "302",
+    "ussd": "*898#",
+    "image": "/images/bank-logo/taj-bank.png"
+  },
+  {
+    "name": "Union Bank of Nigeria",
+    "slug": "union-bank-of-nigeria",
+    "code": "032",
+    "ussd": "*826#",
+    "image": "/images/bank-logo/union-bank-of-nigeria.png"
+  },
+  {
+    "name": "United Bank For Africa",
+    "slug": "united-bank-for-africa",
+    "code": "033",
+    "ussd": "*919#",
+    "image": "/images/bank-logo/united-bank-for-africa.png"
+  },
+  {
+    "name": "Unity Bank",
+    "slug": "unity-bank",
+    "code": "215",
+    "ussd": "*7799#",
+    "image": "/images/bank-logo/default-image.png"
+  },
+  {
+    "name": "VFD Microfinance Bank",
+    "slug": "vfd",
+    "code": "566",
+    "ussd": "",
+    "image": "/images/bank-logo/vfd-bank.jpg"
+  },
+  {
+    "name": "Wema Bank",
+    "slug": "wema-bank",
+    "code": "035",
+    "ussd": "*945#",
+    "image": "/images/bank-logo/wema-bank.png"
+  },
+  {
+    "name": "Zenith Bank",
+    "slug": "zenith-bank",
+    "code": "057",
+    "ussd": "*966#",
+    "image": "/images/bank-logo/zenith-bank.png"
+  }
+]

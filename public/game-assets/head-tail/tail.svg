@@ -1,0 +1,14 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="96" cy="96" r="92" fill="#FFD700" stroke="#B8860B" stroke-width="8"/>
+  <circle cx="96" cy="96" r="84" fill="#FFD700" stroke="#DAA520" stroke-width="4"/>
+  <circle cx="96" cy="96" r="76" fill="#FFD700"/>
+  <!-- Decorative pattern -->
+  <circle cx="96" cy="96" r="40" stroke="#B8860B" stroke-width="4" fill="none"/>
+  <path d="M96 56L96 136" stroke="#B8860B" stroke-width="4"/>
+  <path d="M56 96L136 96" stroke="#B8860B" stroke-width="4"/>
+  <!-- Corner decorations -->
+  <circle cx="66" cy="66" r="8" fill="#B8860B"/>
+  <circle cx="126" cy="66" r="8" fill="#B8860B"/>
+  <circle cx="66" cy="126" r="8" fill="#B8860B"/>
+  <circle cx="126" cy="126" r="8" fill="#B8860B"/>
+</svg>

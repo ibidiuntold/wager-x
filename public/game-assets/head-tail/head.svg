@@ -1,0 +1,12 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="96" cy="96" r="92" fill="#FFD700" stroke="#B8860B" stroke-width="8"/>
+  <circle cx="96" cy="96" r="84" fill="#FFD700" stroke="#DAA520" stroke-width="4"/>
+  <circle cx="96" cy="96" r="76" fill="#FFD700"/>
+  <!-- Crown symbol -->
+  <path d="M56 96L76 76L96 96L116 76L136 96L126 116H66L56 96Z" fill="#B8860B"/>
+  <path d="M66 116H126V136H66V116Z" fill="#B8860B"/>
+  <!-- Decorative dots -->
+  <circle cx="76" cy="66" r="4" fill="#B8860B"/>
+  <circle cx="96" cy="66" r="4" fill="#B8860B"/>
+  <circle cx="116" cy="66" r="4" fill="#B8860B"/>
+</svg>

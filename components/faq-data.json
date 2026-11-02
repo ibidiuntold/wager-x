@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "name": "Account & Security",
+      "questions": [
+        {
+          "question": "How do I create an account on WagerX?",
+          "answer": "Creating an account is simple: Click 'Sign Up' on the homepage, enter your email, create a password, and verify your email address. You'll need to be 18+ and provide basic information for KYC verification."
+        },
+        {
+          "question": "What documents do I need for KYC verification?",
+          "answer": "For KYC verification, you'll need to provide: A valid government-issued ID (National ID, Driver's License, or International Passport), proof of address (utility bill not older than 3 months), and a clear selfie holding your ID."
+        },
+        {
+          "question": "How can I reset my password?",
+          "answer": "To reset your password, click 'Forgot Password' on the login page, enter your registered email address, and follow the reset instructions sent to your email. For security, the reset link expires after 1 hour."
+        },
+        {
+          "question": "How does WagerX protect my personal information?",
+          "answer": "We employ industry-standard encryption and security measures to protect your data. This includes SSL encryption, two-factor authentication, and regular security audits. Your financial information is never stored on our servers."
+        }
+      ]
+    },
+    {
+      "name": "Deposits & Withdrawals",
+      "questions": [
+        {
+          "question": "What payment methods are available?",
+          "answer": "We accept various payment methods including bank transfers, debit/credit cards, and popular e-wallets. All transactions are processed in Nigerian Naira (₦)."
+        },
+        {
+          "question": "What are the minimum and maximum deposit limits?",
+          "answer": "The minimum deposit is ₦100, while the maximum deposit is ₦200,000 per transaction. These limits may vary based on your account level and verification status."
+        },
+        {
+          "question": "How long do withdrawals take to process?",
+          "answer": "Withdrawals are typically processed within 24 hours. Bank transfers may take 1-3 business days to reflect in your account. E-wallet withdrawals are usually instant once approved."
+        },
+        {
+          "question": "Why was my withdrawal rejected?",
+          "answer": "Withdrawals may be rejected if: Your account is not fully verified, you haven't met wagering requirements for bonuses, or there are suspicious activities. Contact support for specific details about your case."
+        }
+      ]
+    },
+    {
+      "name": "Games & Betting",
+      "questions": [
+        {
+          "question": "What types of games are available on WagerX?",
+          "answer": "WagerX offers a diverse selection including slots, crash games, hold'n'win games, 3x3 grid games, and unique titles like Naija Trivia. New games are added regularly to keep the experience fresh."
+        },
+        {
+          "question": "How do I place a wager?",
+          "answer": "Select your preferred game, choose your stake amount (minimum ₦100), and follow the game-specific instructions. Each game has its own rules and winning conditions clearly explained in the game interface."
+        },
+        {
+          "question": "What is the RTP (Return to Player) percentage?",
+          "answer": "Our games have an average RTP of 96-97%. Individual game RTPs are displayed in the game information section. This means that over time, players can expect to win back 96-97% of their total wagers."
+        },
+        {
+          "question": "Can I play games for free?",
+          "answer": "Yes, most games offer a demo mode where you can practice without using real money. This is a great way to learn game mechanics before placing real wagers."
+        }
+      ]
+    },
+    {
+      "name": "Bonuses & Rewards",
+      "questions": [
+        {
+          "question": "What welcome bonus do new players get?",
+          "answer": "New players receive a 100% match bonus on their first deposit up to ₦50,000. This comes with a 20x wagering requirement that must be met before withdrawal."
+        },
+        {
+          "question": "How does the loyalty program work?",
+          "answer": "Players earn points through wagering and progress through levels (Bronze to Diamond). Each level offers better rewards, cashback rates, and exclusive promotions."
+        },
+        {
+          "question": "What is the referral bonus program?",
+          "answer": "Invite friends using your unique referral code. When they sign up and make their first deposit, you'll receive a bonus of 10% of their deposit amount, and they'll get an extra 50% bonus on top of their welcome offer."
+        },
+        {
+          "question": "Are there daily or weekly promotions?",
+          "answer": "Yes, we offer daily tasks with rewards, weekly cashback on losses, and special tournament events. Check the 'Promotions' page regularly for the latest offers."
+        }
+      ]
+    },
+    {
+      "name": "Technical Support",
+      "questions": [
+        {
+          "question": "What should I do if a game crashes?",
+          "answer": "If a game crashes, don't panic - your wager is protected. Refresh the page or restart the app. If the issue persists, contact support with details of the incident including time and game name."
+        },
+        {
+          "question": "How can I contact customer support?",
+          "answer": "Our support team is available 24/7 through live chat, email (support@wagerx.ng), or phone. For urgent issues, live chat provides the fastest response times."
+        },
+        {
+          "question": "Is there a mobile app available?",
+          "answer": "Yes, WagerX is available as a mobile-optimized website and native apps for both iOS and Android devices. Download links are available on our homepage."
+        },
+        {
+          "question": "What browsers are supported?",
+          "answer": "WagerX supports all major modern browsers including Chrome, Firefox, Safari, and Edge. For the best experience, we recommend keeping your browser updated to the latest version."
+        }
+      ]
+    }
+  ]
+}
